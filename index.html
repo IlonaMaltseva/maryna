@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, viewport-fit=cover">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&amp;display=swap" rel="stylesheet">
+	<link media="all" rel="stylesheet" href="css/root.css">
+	<link media="all" rel="stylesheet" href="css/style.css">
+	<title>Maryna Soloviova</title>
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<button class="nav-opener"><span>Menu</span></button>
+				<div class="nav-drop">
+					<nav class="nav">
+						<ul class="menu">
+							<li class="menu__item">
+								<a class="menu__link" href="#">About</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Projects</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Contact</a>
+							</li>
+						</ul>
+						<ul class="language-switcher">
+							<li>
+								<a class="language-switcher__btn active" href="#">En</a>
+							</li>
+							<li>
+								<a class="language-switcher__btn" href="#">Ru</a>
+							</li>
+							<li>
+								<a class="language-switcher__btn" href="#">De</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<a href="#" class="header__logo">
+					<img src="img/logo-white.png" width="180" alt="Maryna Soloviova" srcset="img/logo-white@2x.png 2x">
+				</a>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="hero-section hero-section--home">
+				<div class="container">
+					<h1>Leading architecture &amp; <br> interior design <br> in Switzerland</h1>
+					<a href="#" class="btn btn--outline">View projects</a>
+				</div>
+				<div class="bg-stretch">
+					<img src="img/cafe-central-odesa.jpg" alt="image description" srcset="img/cafe-central-odesa@2x.jpg 2x">
+				</div>
+			</section>
+			<section class="section">
+				<div class="container">
+					<div class="about-tile">
+						<div class="about-tile__content">
+							<div class="text-wrap">
+								<h2>About me</h2>
+								<p class="text--body">My passion is to bring to life bespoke, aesthetically captivating environments that perfectly align with your desires and dreams. I specialize in rapidly developing projects that span a wide range of unique styles and architectural designs.</p>
+								<p class="text--body">Even if you're starting without a clear vision, I'm here to guide you towards realizing the space you've always imagined. Together, we can craft harmony from what might seem like entirely incompatible elements, whether in interior or exterior design. I thrive on blending various styles and materials to achieve outstanding results.</p>
+								<div class="btn-holder">
+									<a href="#" class="btn btn--primary">More about me</a>
+								</div>
+							</div>
+						</div>
+						<div class="about-tile__visual">
+							<img src="img/maryna.jpg" width="380" alt="image description" srcset="img/maryna@2x.jpg 2x">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section">
+				<div class="container">
+					<div class="section-head">
+						<h2>Features</h2>
+						<div class="section-head__content">
+							<p class="text--body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos laboriosam pariatur quas quis tenetur est ipsa ab aut, soluta voluptatem perspiciatis iure voluptas doloremque esse nihil cupiditate, dolorum consectetur aspernatur.</p>
+						</div>
+					</div>
+					<ul class="highlights">
+						<li>
+							<span class="highlight-num">17</span>
+							<span>Years of experience</span>
+						</li>
+						<li>
+							<span class="highlight-num">5</span>
+							<span>Countries covered</span>
+						</li>
+						<li>
+							<span class="highlight-num">200</span>
+							<span>Projects delivered</span>
+						</li>
+						<li>
+							<span class="highlight-num">20</span>
+							<span>Projects per year</span>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="section">
+				<div class="container">
+					<h2 class="headtitle">Projects</h2>
+					<ul class="filter-group">
+						<li>
+							<button class="filter-group__btn is-checked" data-filter="*">All</button>
+						</li>
+						<li>
+							<button class="filter-group__btn" data-filter=".commercial">Commercial</button>
+						</li>
+						<li>
+							<button class="filter-group__btn" data-filter=".apartments">Apartments</button>
+						</li>
+					</ul>
+					<div class="project-grid">
+						<div class="grid-sizer"></div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/cafe-central-odesa.jpg" alt="image description" srcset="img/cafe-central-odesa@2x.jpg 2x">
+								<a href="#" class="project-card__inner">
+									<span class="project-card__title">Cafe Central Odessa</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/img13.jpg" alt="image description" srcset="img/img13@2x.jpg 2x">
+								<a href="#" class="project-card__inner">
+									<span class="project-card__title">Swiss House</span>
+									<span class="project-card__location">Lugano, Switzerland</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item apartments" data-category="apartments">
+							<div class="project-card">
+								<img class="project-card__img" src="img/img04.jpg" alt="image description" srcset="img/img04@2x.jpg 2x">
+								<a href="#" class="project-card__inner">
+									<span class="project-card__title">Cafe Central Odessa</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item apartments" data-category="apartments">
+							<div class="project-card">
+								<img class="project-card__img" src="img/img02.jpg" alt="image description" srcset="img/img02@2x.jpg 2x">
+								<a href="#" class="project-card__inner">
+									<span class="project-card__title">Beauty studio Soul</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/img03.jpg" alt="image description" srcset="img/img03@2x.jpg 2x">
+								<a href="#" class="project-card__inner">
+									<span class="project-card__title">Luxury sea view apartments</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/cafe-central-odesa.jpg" alt="image description" srcset="img/cafe-central-odesa@2x.jpg 2x">
+								<a href="#" class="project-card__inner">
+									<span class="project-card__title">Cafe Central Odessa</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item apartments" data-category="apartments">
+							<div class="project-card">
+								<img class="project-card__img" src="img/img01.jpg" alt="image description" srcset="img/img01@2x.jpg 2x">
+								<a href="#" class="project-card__inner">
+									<span class="project-card__title">Grace cafe</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/img04.jpg" alt="image description" srcset="img/img04@2x.jpg 2x">
+								<a href="#" class="project-card__inner">
+									<span class="project-card__title">Cafe Central Odessa</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item apartments" data-category="apartments">
+							<div class="project-card">
+								<img class="project-card__img" src="img/img02.jpg" alt="image description" srcset="img/img02@2x.jpg 2x">
+								<a href="#" class="project-card__inner">
+									<span class="project-card__title">Beauty studio Soul</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item apartments" data-category="apartments">
+							<div class="project-card">
+								<img class="project-card__img" src="img/img03.jpg" alt="image description" srcset="img/img03@2x.jpg 2x">
+								<a href="#" class="project-card__inner">
+									<span class="project-card__title">Luxury sea view apartments</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="btn-unit">
+						<a href="#" class="btn btn--primary">View portfolio</a>
+					</div>
+				</div>
+			</section>
+			<section class="section bg--primary">
+				<div class="container">
+					<div class="cta-tile">
+						<h2>Let’s talk about <br> your project!</h2>
+						<p>I am ready to share with you my design vision and lead <br> you into the exciting world of creativity.</p>
+						<a href="#" data-izimodal-open="#modal" class="btn btn--outline">Send request</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-upper">
+					<a href="#" class="footer-upper__logo">
+						<img src="img/logo.png" width="170" alt="Maryna Soloviova" srcset="img/logo@2x.png 2x">
+					</a>
+					<div class="footer-menu">
+						<div class="footer-menu__item">
+							<ul class="footer-menu__list">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Projects</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+						<div class="footer-menu__item">
+							<address>Kurfirstenstrasse 19, 7000 Chur, <br> Switzerland</address>
+							<a href="tel:41797273659">+41 79 727 36 59</a>
+							<a href="mailto:homedesigne2020@gmail.com">homedesigne2020@gmail.com</a>
+							<ul class="socials">
+								<li>
+									<a href="#" class="socials__link" target="_blank">
+										<i class="icon icon-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="socials__link" target="_blank">
+										<i class="icon icon-whatsapp"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="socials__link" target="_blank">
+										<i class="icon icon-behance"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-under">
+					<ul class="terms">
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms and Conditions</a></li>
+					</ul>
+					<span class="copy">© 2024 Maryna Soloviova.</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAOlflhHpYtWDqOu6o9yp4N3CNFwtOEP8"></script>
+	<script src="js/jquery.main.js" defer=""></script>
+
+	<div id="modal">
+		<button class="btn-close" data-izimodal-close="">Close</button>
+		<div class="modal-head">
+			<h2>Let's connect</h2>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+		</div>
+		<form action="#" class="form">
+			<div class="form-row">
+				<div class="form-row__col">
+					<div class="form-field">
+						<label>Name</label>
+						<input type="text">
+					</div>
+					<div class="form-field">
+						<label>Email</label>
+						<input type="email">
+					</div>
+					<div class="form-field">
+						<label>Phone</label>
+						<input type="tel">
+					</div>
+				</div>
+				<div class="form-row__col">
+					<div class="form-field">
+						<label>Your city</label>
+						<input type="text">
+					</div>
+					<div class="form-field">
+						<label>Message</label>
+						<textarea></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="form-field">
+				<button class="btn btn--outline">Send request</button>
+			</div>
+		</form>
+	</div>
+
+</body>
+
+</html>
