@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, viewport-fit=cover">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&amp;display=swap" rel="stylesheet">
+	<link media="all" rel="stylesheet" href="css/root.css">
+	<link media="all" rel="stylesheet" href="css/style.css">
+	<title>Maryna Soloviova</title>
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<button class="nav-opener"><span>Menu</span></button>
+				<div class="nav-drop">
+					<nav class="nav">
+						<ul class="menu">
+							<li class="menu__item">
+								<a class="menu__link" href="#">About</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Projects</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Contact</a>
+							</li>
+						</ul>
+						<ul class="language-switcher">
+							<li>
+								<a class="language-switcher__btn active" href="#">En</a>
+							</li>
+							<li>
+								<a class="language-switcher__btn" href="#">Ru</a>
+							</li>
+							<li>
+								<a class="language-switcher__btn" href="#">De</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<a href="#" class="header__logo">
+					<img src="img/logo-white.png" width="180" alt="Maryna Soloviova" srcset="img/logo-white@2x.png 2x">
+				</a>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="section">
+				<div class="container">
+					<h2 class="headtitle">Projects</h2>
+					<ul class="filter-group" id="filters">
+						<li>
+							<button class="filter-group__btn is-checked" data-filter="*">All</button>
+						</li>
+						<li>
+							<button class="filter-group__btn" data-filter=".commercial">Commercial</button>
+						</li>
+						<li>
+							<button class="filter-group__btn" data-filter=".apartments">Apartments</button>
+						</li>
+					</ul>
+					<div class="project-grid">
+						<div class="grid-sizer"></div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/cafe-central01.jpg" alt="image description" srcset="img/cafe-central01@2x.jpg 2x">
+								<a href="cafe-central-odesa.html" class="project-card__inner">
+									<span class="project-card__title">Cafe Central Odessa</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item apartments" data-category="apartments">
+							<div class="project-card">
+								<img class="project-card__img" src="img/grace-cafe20.jpg" alt="image description" srcset="img/grace-cafe20@2x.jpg 2x">
+								<a href="grace-cafe.html" class="project-card__inner">
+									<span class="project-card__title">Grace cafe</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/swiss-house01.jpg" alt="image description" srcset="img/swiss-house01@2x.jpg 2x">
+								<a href="swiss-house.html" class="project-card__inner">
+									<span class="project-card__title">Swiss House</span>
+									<span class="project-card__location">Lugano, Switzerland</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item apartments" data-category="apartments">
+							<div class="project-card">
+								<img class="project-card__img" src="img/sea-view-apartments01.jpg" alt="image description" srcset="img/sea-view-apartments01@2x.jpg 2x">
+								<a href="sea-view-apartments.html" class="project-card__inner">
+									<span class="project-card__title">Sea view apartments</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/hunny-bistro05.jpg" alt="image description" srcset="img/hunny-bistro05@2x.jpg 2x">
+								<a href="hunny-bistro.html" class="project-card__inner">
+									<span class="project-card__title">Hunny bistro</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/concept-store12.jpg" alt="image description" srcset="img/concept-store12@2x.jpg 2x">
+								<a href="concept-store-7th-heaven.html" class="project-card__inner">
+									<span class="project-card__title">Concept store 7th heaven</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/cosmetology-studio-kaba01.jpg" alt="image description" srcset="img/cosmetology-studio-kaba01@2x.jpg 2x">
+								<a href="cosmetology-studio-kaba.html" class="project-card__inner">
+									<span class="project-card__title">Cosmetology Studio Ka Ba</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/beauty-salon-Women-space01.jpg" alt="image description" srcset="img/beauty-salon-Women-space01@2x.jpg 2x">
+								<a href="beauty-salon-women-space.html" class="project-card__inner">
+									<span class="project-card__title">Beauty salon Women space</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/burger-place01.jpg" alt="image description" srcset="img/burger-place01@2x.jpg 2x">
+								<a href="burger-place.html" class="project-card__inner">
+									<span class="project-card__title">Burger Place</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/london01.jpg" alt="image description" srcset="img/london01@2x.jpg 2x">
+								<a href="london.html" class="project-card__inner">
+									<span class="project-card__title">London</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+						<div class="project-grid__item commercial" data-category="commercial">
+							<div class="project-card">
+								<img class="project-card__img" src="img/img02.jpg" alt="image description" srcset="img/img02@2x.jpg 2x">
+								<a href="#" class="project-card__inner">
+									<span class="project-card__title">Beauty studio Soul</span>
+									<span class="project-card__location">Odesa, Ukraine</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section bg--primary">
+				<div class="container">
+					<div class="cta-tile">
+						<h2>Let’s talk about <br> your project!</h2>
+						<p>I am ready to share with you my design vision and lead <br> you into the exciting world of creativity.</p>
+						<a href="#" data-izimodal-open="#modal" class="btn btn--outline">Send request</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-upper">
+					<a href="#" class="footer-upper__logo">
+						<img src="img/logo.png" width="170" alt="Maryna Soloviova" srcset="img/logo@2x.png 2x">
+					</a>
+					<div class="footer-menu">
+						<div class="footer-menu__item">
+							<ul class="footer-menu__list">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Projects</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+						<div class="footer-menu__item">
+							<address>Kurfirstenstrasse 19, 7000 Chur, <br> Switzerland</address>
+							<a href="tel:41797273659">+41 79 727 36 59</a>
+							<a href="mailto:homedesigne2020@gmail.com">homedesigne2020@gmail.com</a>
+							<ul class="socials">
+								<li>
+									<a href="#" class="socials__link" target="_blank">
+										<i class="icon icon-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="socials__link" target="_blank">
+										<i class="icon icon-whatsapp"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="socials__link" target="_blank">
+										<i class="icon icon-behance"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-under">
+					<ul class="terms">
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms and Conditions</a></li>
+					</ul>
+					<span class="copy">© 2024 Maryna Soloviova.</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAOlflhHpYtWDqOu6o9yp4N3CNFwtOEP8"></script>
+	<script src="js/jquery.main.js" defer=""></script>
+
+
+</body>
+
+</html>
