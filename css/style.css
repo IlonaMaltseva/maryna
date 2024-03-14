@@ -4439,7 +4439,6 @@ html.iziModal-isAttached body {
 }
 .hero-section--home {
 	min-height: 500px;
-	height: 100vh;
 }
 .hero-section h1:last-child {
 	margin-bottom: 0;
@@ -6879,6 +6878,7 @@ body.nav-active .nav-opener:before {
 		padding: 200px 0;
 	}
 	.hero-section--home {
+		height: 100vh;
 		min-height: 600px;
 	}
 	.filter-group {
