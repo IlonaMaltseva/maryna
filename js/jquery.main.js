@@ -109,19 +109,13 @@ function initReviewSlider() {
 		var swiper = new Swiper(this, {
 			slidesPerView: 1,
 			effect: "fade",
+			autoplay: {
+				delay: 5000,
+			},
 			pagination: {
-				el: ".swiper-pagination",
-				clickable: true, // Enable navigation through pagination bullets
-				renderBullet: function (index, className) {
-					var customText = document.querySelectorAll('.swiper-wrapper .swiper-slide')[index].getAttribute('data-custom-text');
-					var pageNumber = (index + 1).toString().padStart(2, '0'); // Sequential numbering
-
-					// Create separate spans for sequential numbering and custom text
-					var bulletHtml = '<span class="pagination-number">' + pageNumber + '</span>';
-					bulletHtml += '<span class="pagination-text">' + customText + '</span>';
-
-					return '<span class="' + className + '">' + bulletHtml + '</span>';
-				},
+				el: '.swiper-pagination',
+				type: 'bullets',
+				clickable: true,
 			},
 			breakpoints: {
 				1200: {
