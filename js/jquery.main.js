@@ -112,6 +112,10 @@ function initReviewSlider() {
 			autoplay: {
 				delay: 5000,
 			},
+			navigation: {
+				nextEl: $(self).closest('.slider-section').find(".swiper-button-prev").get(0),
+				prevEl: $(self).closest('.slider-section').find(".swiper-button-next").get(0),
+			},
 			pagination: {
 				el: '.swiper-pagination',
 				type: 'bullets',
